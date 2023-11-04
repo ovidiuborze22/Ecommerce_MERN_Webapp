@@ -1,0 +1,44 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Node.js #
+###########
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# dist files #
+##############
+/dist/
+
+# dotenv environment variables file #
+#####################################
+.env
+
+# Editor directories and files #
+################################
+.idea/
+*.swp
+*.swo
+*.sublime*
+*.vscode/
+*.atom/
+*.eslintrc
+*.jshintrc
+*.sass-cache
+
+# Project-specific examples #
+#############################
+# e.g., if you're using Grunt, you might want to ignore the following:
+/Gruntfile.js
+/grunt/
+
+# e.g., if you're using SASS/SCSS, you might want to ignore the following:
+.sass-cache/
+*.scssc
+
+# e.g., if you're using TypeScript, you might want to ignore the following:
+*.tsbuildinfo
